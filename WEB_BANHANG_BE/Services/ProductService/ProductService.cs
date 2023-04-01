@@ -24,8 +24,8 @@ namespace WebApi.Services.ProductService
 
         public List<ProductModel> GetListProduct()
         {
-            var connection ="DATA SOURCE=localhost/orcl;User Id=SANG;Password=ABC123";
-            //var connection = _conn.ToString();
+            //var connection ="DATA SOURCE=localhost/orcl;User Id=SANG;Password=ABC123";
+            var connection = _conn.ConnectionString;
             //Console.WriteLine(connection);
             List<ProductModel> lstProduct = new List<ProductModel>();
             string sql = "SELECT product_id, name, price FROM product";
