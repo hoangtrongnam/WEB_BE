@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\c#\\WEB_BE\\WEB_BANHANG_BE\\WEB_BANHANG_BE.csproj": {}
+    "D:\\source\\c#\\WEB_BE\\web_banhang_be\\WEB_BANHANG_BE.csproj": {}
   },
   "projects": {
-    "D:\\source\\c#\\WEB_BE\\WEB_BANHANG_BE\\WEB_BANHANG_BE.csproj": {
+    "D:\\source\\c#\\WEB_BE\\web_banhang_be\\WEB_BANHANG_BE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\c#\\WEB_BE\\WEB_BANHANG_BE\\WEB_BANHANG_BE.csproj",
+        "projectUniqueName": "D:\\source\\c#\\WEB_BE\\web_banhang_be\\WEB_BANHANG_BE.csproj",
         "projectName": "WEB_BANHANG_BE",
-        "projectPath": "D:\\source\\c#\\WEB_BE\\WEB_BANHANG_BE\\WEB_BANHANG_BE.csproj",
+        "projectPath": "D:\\source\\c#\\WEB_BE\\web_banhang_be\\WEB_BANHANG_BE.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\c#\\WEB_BE\\WEB_BANHANG_BE\\obj\\",
+        "outputPath": "D:\\source\\c#\\WEB_BE\\web_banhang_be\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,13 +38,37 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.4, )"
             },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.1.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.90, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Newtonsoft": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
