@@ -43,6 +43,7 @@ using System.Linq;
 using WEB_BANHANG_BE.Persistence;
 using WEB_BANHANG_BE.Services.Logger;
 using WEB_BANHANG_BE.Extensions;
+using WebApi.Services.ProductService;
 
 namespace WEB_BANHANG_BE
 {
@@ -53,7 +54,7 @@ namespace WEB_BANHANG_BE
         public Startup(IConfiguration configuration)
         {
             // loàng ngoằng bí hiểm
-            LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
+            //LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
             _configuration = configuration;
         }
 
@@ -143,8 +144,8 @@ namespace WEB_BANHANG_BE
             // lấy chuổi kết nối data
             var connectionDict = new Dictionary<DatabaseConnectionName, string>
             {
-                { DatabaseConnectionName.Connection1, this._configuration.GetConnectionString("DefaultConnection") },
-                { DatabaseConnectionName.Connection2, this._configuration.GetConnectionString("DefaultConnection") }
+                { DatabaseConnectionName.Connection1, this._configuration.GetConnectionString("DefaultConnection")??""},
+                { DatabaseConnectionName.Connection2, this._configuration.GetConnectionString("DefaultConnection")??""}
             };
 
             services.AddDataProtection();
@@ -158,6 +159,7 @@ namespace WEB_BANHANG_BE
 
             // Register your regular repositories
             services.AddScoped<ModelValidationAttribute>();
+            services.AddScoped<IProductService, ProductService>();
 
         }
 

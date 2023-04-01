@@ -13,7 +13,7 @@ namespace WEB_BANHANG_BE
     {
         public static void Configure(IServiceCollection services, IConfiguration configuration)
         {
-            if (bool.Parse(configuration["Authentication:JwtBearer:IsEnabled"]))
+            if (bool.Parse(configuration["Authentication:JwtBearer:IsEnabled"]??""))
             {
                 services.AddAuthentication(options => {
                     options.DefaultAuthenticateScheme = "JwtBearer";
@@ -26,7 +26,7 @@ namespace WEB_BANHANG_BE
                     {
                         // The signing key must match!
                         ValidateIssuerSigningKey = true,
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(configuration["Authentication:JwtBearer:SecurityKey"])),
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(configuration["Authentication:JwtBearer:SecurityKey"]??"")),
 
                         // Validate the JWT Issuer (iss) claim
                         ValidateIssuer = true,

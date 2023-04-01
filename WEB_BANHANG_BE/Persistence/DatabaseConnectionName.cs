@@ -24,7 +24,7 @@ namespace WEB_BANHANG_BE.Persistence
 
         public IDbConnection CreateDbConnection(DatabaseConnectionName connectionName)
         {
-            string connectionString = "";
+            string? connectionString = null;
             if (_connectionDict.TryGetValue(connectionName, out connectionString))
             {
                 return new OracleConnection(connectionString);
