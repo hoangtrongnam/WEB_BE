@@ -1,15 +1,15 @@
 using Newtonsoft.Json;
-namespace WebApi.Models
+namespace WEB_BANHANG_BE.Models
 {
     public class ProductModel
     {
-        [JsonProperty("product_id")]
-        public string? Product_id { get; set; }
+        [JsonProperty("Product_id")]
+        public int? Product_id { get; set; }
 
         [JsonProperty("name")]
         public string? name { get; set; }
 
         [JsonProperty("price")]
-        public string? price { get; set; }
+        public decimal? price { get; set; }
     }
 }
