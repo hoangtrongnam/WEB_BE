@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j4nAsm5Mcj7PxGDzhz1zzqNgPseGYQo2VIf/qvC07drcEy1Lw6mVO4dHj9v6GNxgOT+OSIOS5DUomaTKP7t8Kw==",
+  "dgSpecHash": "z+AXxzUxdFKIgg8RwcqmQxKVg6tr7QWQGwmmnKI2dmaXoGxP1YDQPoWoB5l/Cz2JM9htNFZgrVjAIbtOqtXO7g==",
   "success": true,
-  "projectFilePath": "D:\\source\\c#\\WEB_BE\\web_banhang_be\\WEB_BANHANG_BE.csproj",
+  "projectFilePath": "D:\\source\\c#\\WEB_BE\\WEB_BANHANG_BE\\WEB_BANHANG_BE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.4\\microsoft.aspnetcore.authentication.jwtbearer.7.0.4.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.0\\microsoft.aspnetcore.jsonpatch.7.0.0.nupkg.sha512",

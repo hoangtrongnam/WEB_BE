@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\c#\\WEB_BE\\web_banhang_be\\WEB_BANHANG_BE.csproj": {}
+    "D:\\source\\c#\\WEB_BE\\WEB_BANHANG_BE\\WEB_BANHANG_BE.csproj": {}
   },
   "projects": {
-    "D:\\source\\c#\\WEB_BE\\web_banhang_be\\WEB_BANHANG_BE.csproj": {
+    "D:\\source\\c#\\WEB_BE\\WEB_BANHANG_BE\\WEB_BANHANG_BE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\c#\\WEB_BE\\web_banhang_be\\WEB_BANHANG_BE.csproj",
+        "projectUniqueName": "D:\\source\\c#\\WEB_BE\\WEB_BANHANG_BE\\WEB_BANHANG_BE.csproj",
         "projectName": "WEB_BANHANG_BE",
-        "projectPath": "D:\\source\\c#\\WEB_BE\\web_banhang_be\\WEB_BANHANG_BE.csproj",
+        "projectPath": "D:\\source\\c#\\WEB_BE\\WEB_BANHANG_BE\\WEB_BANHANG_BE.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\c#\\WEB_BE\\web_banhang_be\\obj\\",
+        "outputPath": "D:\\source\\c#\\WEB_BE\\WEB_BANHANG_BE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -20,11 +20,11 @@ namespace WEB_BANHANG_BE.Extensions
                     {
                         logger.LogError($"Something went wrong: {contextFeature.Error}");
 
-                        // await context.Response.WriteAsync(new WEB_BANHANG_BE.Models.Globally.ErrorModel()
-                        // {
-                        //     Code = "SYS_ERROR",
-                        //     Message = "Internal Server Error."
-                        // }.ToString());
+                        await context.Response.WriteAsync(new WEB_BANHANG_BE.Models.Globally.ErrorModel()
+                        {
+                            Code = "SYS_ERROR",
+                            Message = "Internal Server Error."
+                        }.ToString());
                     }
                 });
             });
