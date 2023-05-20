@@ -25,9 +25,9 @@ logger.Fatal("Fatal message");
 dotnet add package Newtonsoft.Json
 # cài đặt System.Data.SqlClient Tạo một kết nối đến cơ sở dữ liệu hoặc cài đặt Oracle.ManagedDataAccess cho oracle
 dotnet add package System.Data.SqlClient hoăc dotnet add package Oracle.ManagedDataAccess
-# cài đặt 
+# cài đặt Swashbuckle.AspNetCore.Newtonsoft
 dotnet add package Swashbuckle.AspNetCore.Newtonsoft
-# cài đặt 
+# cài đặt Microsoft.AspNetCore.Mvc.Versioning
 dotnet add package Microsoft.AspNetCore.Mvc.Versioning
-# cài đặt
+# cài đặt Microsoft.AspNetCore.Authentication.JwtBearer
 dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
